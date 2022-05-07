@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+}
+.child1{
+    color: red;
+
+}
+.child2{
+    color: black;
+}
+.child3{
+    color: blue;
+}
+.child4{
+    color: green;
+}
+@media only screen and (max-width: 700px) {
+    .container{
+        grid-template-columns: auto auto;
+
+    }
+@media only screen and (max-width: 500px) {
+    .container{
+        grid-template-columns: auto;
+    }
+}
